@@ -41,7 +41,7 @@ async def transfer_hair(
         source: UploadFile = File(...),
         target: UploadFile = File(...)
     ):
-    """put mask on face in image.
+    """transfer hair from target to source face.
 
     - file: image file contain face
     """

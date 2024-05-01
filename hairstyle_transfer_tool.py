@@ -121,7 +121,6 @@ class Tool:
 
         for ii in range(output_images.shape[0]):
             img_generated = utils.torch_to_numpy_uint8(output_images[ii:ii + 1])
-        cv2.imwrite('test_api.jpg', img_generated)
         return img_generated
 
     def hairstyle_transfer(self, im1_path, im2_path, alpha_blend=True):
