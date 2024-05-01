@@ -1,0 +1,19 @@
+APP_NAME = 'HAIRSTYLE'
+
+API_VERSION = '0.0.1'
+API_DESCRIPTION = 'HAIRSTYLE TRANSFER API'
+API_PREFIX = '/api'
+
+LOG_SYSTEM = 'SYSTEM'
+LOG_LEVEL = 'INFO'
+LOG_LEVEL_SYSTEM = 100
+if LOG_LEVEL == 'DEBUG':
+    DEBUG = True
+else:
+    DEBUG = False
+ROTATION = '500 MB'
+RETENTION = '10 days'
+
+# =============
+
+result_path = './'
