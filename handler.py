@@ -33,7 +33,8 @@ async def welcome():
 
 @api_router.post(
     '/infer/transfer/',
-    responses = {200: {"content": {"image/png": {}}}
+    responses={
+        200: {"content": {"image/png": {}}}
     },
 )
 async def transfer_hair(
